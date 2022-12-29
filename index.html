@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venecia, la ciudad flotante</title>
+    <link rel="icon" href="imagenes/iconos/logo-venecia.png">
+
+    <!--CSS EXTERNO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fuentes/stylesheet.css">
+
+    <!--CSS DE AUTORA-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="portada">
+        <nav id="menu">
+            <a href="index.html"><img src="imagenes/iconos/logo-venecia.png"
+                    alt="Sitio web oficial de la ciudad de Venecia, Italia">
+            </a>
+
+            <a href="#menu" class="boton-abrir"><img src="imagenes/iconos/menu-hamburguesa.png"
+                    alt="Ver opciones del menú de navegación"></a>
+            <a href="#" class="boton-cerrar">Cerrar</a>
+
+            <ul id="opciones">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="quever.html">Qué ver</a>
+                </li>
+                <li>
+                    <a href="eventos.html">Eventos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="titulo">
+            <span>Descubre lo mejor de</span>
+            <h1>Venecia</h1>
+            <h2>La ciudad flotante</h2>
+        </div>
+
+        <ul class="redes-sociales">
+            <li>
+                <a href="https://es-la.facebook.com/venecia.italia" target="_blank"><img
+                        src="imagenes/iconos/facebook.png" alt="Facebook"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/venecia" target="_blank"><img src="imagenes/iconos/twitterlogo.png"
+                        alt="Twitter"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/c/venecia" target="_blank"><img src="imagenes/iconos/youtube.png"
+                        alt="Youtube"></a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <section class="sobre-la-ciudad">
+            <div class="parrafo-centrado">
+                <h3>
+                    Sobre la ciudad
+                </h3>
+                <div class="linea-decorativa">
+                    <h4>
+                        Encanto y misterio italiano
+                    </h4>
+                </div>
+                <p>
+                    <strong class="naranja">Venecia</strong> es una encantadora ciudad europea que lanza un hechizo
+                    sobre aquellos que alguna vez la
+                    visitan. Soñadora y romántica, se extiende a través de la Laguna de Venecia, sobre 118 pequeñas
+                    islas ubicadas en el mar Adriático, al noreste de <strong class="naranja">Italia</strong>. Es
+                    considerada una de las ciudades
+                    históricas más bonitas del mundo, por lo que ha sido declarada <strong class="verde">Patrimonio de
+                        la
+                        Humanidad</strong>.
+                </p>
+                <p>
+                    Debido a su situación geográfica, esta ciudad fundada
+                    en el siglo V se convirtió en gran potencia comercial, otorgándole un patrimonio histórico
+                    repleto de impresionantes palacios nobles que, acompañados por la belleza y el romanticismo de
+                    sus canales y puentes, dotan a la ciudad de su tan característico <span
+                        class="naranja">encanto</span>.
+                </p>
+            </div>
+            <div class="contenedor-imagen-fluida">
+                <img src="imagenes/fotos/foto-de-venecia.jpg"
+                    alt="Una pareja en góndola pasando frente a una enorme catedral en Venecia" class="imagen-fluida">
+            </div>
+        </section>
+
+        <div class="numeros-e-iconos">
+            <div>
+                <img src="imagenes/iconos/canales.png" alt="Canal de agua">
+                <span>177</span>
+                <p>canales</p>
+            </div>
+            <div>
+                <img src="imagenes/iconos/gondolas.png" alt="Góndola veneciana">
+                <span>350</span>
+                <p>góndolas</p>
+            </div>
+            <div>
+                <img src="imagenes/iconos/puentes.png" alt="Puente de Rialto, puente famoso de Venecia">
+                <span>417</span>
+                <p>puentes</p>
+            </div>
+        </div>
+
+        <div class="contenedor-ola">
+            <div class="ola">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="relleno-ola"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="relleno-ola"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="relleno-ola"></path>
+                </svg>
+            </div>
+        </div>
+
+        <section class="historia">
+            <div class="linea-decorativa-doble">
+                <h3>
+                    Historia
+                </h3>
+            </div>
+            <h4>
+                ¿Cómo fue construida?
+            </h4>
+            <div>
+                <p>
+                    Aunque Venecia parece estar construida directamente sobre el agua, la realidad es que la ciudad
+                    está
+                    levantada sobre un primitivo atolón que formaba un <strong class="naranja">archipiélago de 118
+                        islas</strong> unidas entre sí por
+                    puentes. De este modo, aunque el aspecto sea el de una ciudad flotante, en realidad está
+                    construida
+                    sobre tierra. Lo que sucede es que está erguida sobre un archipiélago con unas características
+                    geográficas muy particulares que, junto a la saturación de edificios en la zona, dota la ciudad
+                    del
+                    <span class="verde">mágico</span> aspecto que tiene.
+                </p>
+                <p>
+                    Venecia es una ciudad que <span class="naranja">se creó de esta manera tan peculiar</span> para
+                    contar con una ventaja
+                    estratégica sobre las poblaciones convencionales, que no es otra que estar más resguardada ante
+                    posibles invasiones enemigas. Para su construcción, los diferentes materiales tuvieron que ser
+                    transportados en barco desde tierra firme.
+                </p>
+            </div>
+        </section>
+
+        <section class="por-que-elegir">
+            <div>
+                <h4>
+                    Existen tantas ciudades bonitas,
+                </h4>
+                <div class="linea-decorativa">
+                    <h3>
+                        ¿Por qué elegir Venecia?
+                    </h3>
+                </div>
+            </div>
+
+            <div class="contenedor-tarjetas-por-que">
+                <div>
+                    <h5>
+                        Patrimonio cultural
+                    </h5>
+                    <p>
+                        Venecia es una de las ciudades más fascinantes de Europa. Durante siglos dominó el
+                        Mediterráneo, desarrollando una cultura sofisticada y creando obras maestras
+                        arquitectónicas. Fue declarada Patrimonio de la Humanidad por su autenticidad y el valor de
+                        sus palacios; algo que no pasó desapercibido por Napoleón Bonaparte, que dijo de la Plaza de
+                        San Marcos era “el salón más bello de Europa”.
+
+                    </p>
+                    <a href="quever.html" class="boton">Conocer destinos</a>
+                </div>
+
+                <div>
+                    <h5>
+                        La ciudad del amor
+                    </h5>
+                    <p>
+                        Aunque tradicionalmente la etiqueta de "ciudad del amor" siempre se ha otorgado a París,
+                        Venecia
+                        no se queda atrás en posibilidades y actividades para desarrollar en pareja, con sus íntimas
+                        góndolas y sus rincones románticos. <br>
+                        Si te interesan el arte, el cine, la música o la arquitectura, o simplemente quieres ser
+                        seducido por un destino mágico, adorarás Venecia.
+                    </p>
+                </div>
+
+                <div>
+                    <h5>
+                        Carnaval de Venecia
+                    </h5>
+                    <p>
+                        Más allá de la historia, la cultura y la singularidad de su urbanismo, lo lo
+                        que más atrae de Venecia a turistas de todo el mundo es el Carnaval. Durante diez días,
+                        desfiles
+                        y fiestas tanto organizadas como improvisadas se suceden ante la mirada atónita de
+                        visitantes de
+                        todos los puntos del planeta. Espectaculares disfraces de época y, sobre todo, máscaras, son
+                        los
+                        principales protagonistas.
+                    </p>
+                    <a href="eventos.html" class="boton">Conocer eventos</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="que-hacer">
+            <div class="contenedor-flecha">
+                <div class="flecha">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                        preserveAspectRatio="none">
+                        <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="relleno-flecha"></path>
+                    </svg>
+                </div>
+            </div>
+            <h3>
+                Qué hacer en Venecia
+            </h3>
+            <div class="linea-decorativa-doble-naranja">
+                <h4>
+                    Actividades y tours
+                </h4>
+            </div>
+
+            <ul class="contenedor-actividades">
+                <li>
+                    <img src="imagenes/iconos/gondola-veneciana.png" alt="Góndola veneciana">
+                    <a href="#">Paseos en góndola</a>
+                </li>
+                <li>
+                    <img src="imagenes/iconos/palacios.png" alt="Uno de los muchos palacios de Venecia">
+                    <a href="#">Recorrido a pie con un guía local</a>
+                </li>
+                <li>
+                    <img src="imagenes/iconos/museos-de-arte.png" alt="Museo de arte veneciano">
+                    <a href="#">Tours a museos de arte</a>
+                </li>
+                <li>
+                    <img src="imagenes/iconos/iglesia-venecia.png"
+                        alt="Basílica de San Marcos en Venecia">
+                    <a href="#">Recorrer iglesias, catedrales y lugares históricos</a>
+                </li>
+                <li>
+                    <img src="imagenes/iconos/spaghetti.png" alt="Spaghetti, clásica pasta italiana">
+                    <a href="#">Gastronomía italiana</a>
+                </li>
+                <li>
+                    <img src="imagenes/iconos/vino-veneciano.png" alt="Botella de vino veneciana">
+                    <a href="#">Degustación de vino</a>
+                </li>
+            </ul>
+
+        </section>
+
+
+        <section class="video">
+            <iframe src="https://www.youtube.com/embed/rDeecJWUsXo"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h4>Venecia te espera</h4>
+            <h3>Descubre la isla flotante</h3>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contenedor-ola">
+            <div class="ola">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="relleno-ola"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="relleno-ola"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="relleno-ola"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="quever.html">Qué ver</a>
+                </li>
+
+                <li>
+                    <a href="eventos.html">Eventos</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="https://es-la.facebook.com/venecia.italia" target="_blank"><img
+                            src="imagenes/iconos/facebook.png" alt="Facebook"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/venecia" target="_blank"><img src="imagenes/iconos/twitterlogo.png"
+                            alt="Twitter"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/c/venecia" target="_blank"><img src="imagenes/iconos/youtube.png"
+                            alt="Youtube"></a>
+                </li>
+            </ul>
+        </div>
+
+        <address>
+            <dl>
+                <div>
+                    <dt>Nombre:</dt>
+                    <dd>Ana Laura Almirón</dd>
+                </div>
+
+                <div>
+                    <dt>Comisión:</dt>
+                    <dd>DWT1AP</dd>
+                </div>
+
+                <div>
+                    <dt>Materia:</dt>
+                    <dd>Maquetado y Desarrollo Web</dd>
+                </div>
+
+                <div>
+                    <dt>Final:</dt>
+                    <dd>Sitio Web Ciudad</dd>
+                </div>
+
+                <div>
+                    <dt>Docente:</dt>
+                    <dd>Valeria S. Meijide</dd>
+                </div>
+                <div>
+                    <dt>&copy;2022</dt>
+                    <dd></dd>
+                </div>
+            </dl>
+        </address>
+    </footer>
+
+    <script>
+        configObj = {
+            "buttonD": "M8 18.568L10.8 21.333 16 16.198 21.2 21.333 24 18.568 16 10.667z",
+            "buttonT": "translate(-1148 -172) translate(832 140) translate(32 32) translate(284)",
+            "shadowSize": "none",
+            "roundnessSize": "999px",
+            "buttonDToBottom": "40px",
+            "buttonDToRight": "40px",
+            "selectedBackgroundColor": "#fffafa",
+            "selectedIconColor": "#c96f4c",
+            "buttonWidth": "48px",
+            "buttonHeight": "48px",
+            "svgWidth": "40px",
+            "svgHeight": "40px"
+        };
+
+        function createButton(obj, pageSimulator) {
+            const body = document.querySelector("body");
+            backToTopButton = document.createElement("span");
+            backToTopButton.classList.add("softr-back-to-top-button");
+            backToTopButton.id = "softr-back-to-top-button";
+            pageSimulator ? pageSimulator.appendChild(backToTopButton) : body.appendChild(backToTopButton);
+            backToTopButton.style.width = obj.buttonWidth;
+            backToTopButton.style.height = obj.buttonHeight;
+            backToTopButton.style.marginRight = obj.buttonDToRight;
+            backToTopButton.style.marginBottom = obj.buttonDToBottom;
+            backToTopButton.style.borderRadius = obj.roundnessSize;
+            backToTopButton.style.boxShadow = obj.shadowSize;
+            backToTopButton.style.color = obj.selectedBackgroundColor;
+            backToTopButton.style.backgroundColor = obj.selectedBackgroundColor;
+            pageSimulator ? backToTopButton.style.position = "absolute" : backToTopButton.style.position = "fixed";
+            backToTopButton.style.outline = "none";
+            backToTopButton.style.bottom = "0px";
+            backToTopButton.style.right = "0px";
+            backToTopButton.style.cursor = "pointer";
+            backToTopButton.style.textAlign = "center";
+            backToTopButton.style.border = "solid 2px currentColor";
+            backToTopButton.innerHTML =
+                '<svg class="back-to-top-button-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" > <g fill="none" fill-rule="evenodd"> <path d="M0 0H32V32H0z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> <path class="back-to-top-button-img" fill-rule="nonzero" d="M11.384 13.333h9.232c.638 0 .958.68.505 1.079l-4.613 4.07c-.28.246-.736.246-1.016 0l-4.613-4.07c-.453-.399-.133-1.079.505-1.079z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> </g> </svg>';
+            backToTopButtonSvg = document.querySelector(".back-to-top-button-svg");
+            backToTopButtonSvg.style.verticalAlign = "middle";
+            backToTopButtonSvg.style.margin = "auto";
+            backToTopButtonSvg.style.justifyContent = "center";
+            backToTopButtonSvg.style.width = obj.svgWidth;
+            backToTopButtonSvg.style.height = obj.svgHeight;
+            backToTopButton.appendChild(backToTopButtonSvg);
+            backToTopButtonImg = document.querySelector(".back-to-top-button-img");
+            backToTopButtonImg.style.fill = obj.selectedIconColor;
+            backToTopButtonSvg.appendChild(backToTopButtonImg);
+            backToTopButtonImg.setAttribute("d", obj.buttonD);
+            backToTopButtonImg.setAttribute("transform", obj.buttonT);
+            if (!pageSimulator) {
+                backToTopButton.style.display = "none";
+                window.onscroll = function () {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        backToTopButton.style.display = "block";
+                    } else {
+                        backToTopButton.style.display = "none";
+                    }
+                };
+                backToTopButton.onclick = function () {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                };
+            }
+        };
+        document.addEventListener("DOMContentLoaded", function () {
+            createButton(configObj, null);
+        });
+    </script>
+</body>
+
+</html>
